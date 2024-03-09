@@ -1,0 +1,60 @@
+
+Sistema de Cadastro e Notificação de Eventos em Java
+Implementação:
+
+O sistema foi desenvolvido na IDE IntelliJ IDEA utilizando o paradigma orientado a objetos e seguindo os princípios da SOLID. O código está organizado em um repositório Git disponível no link: [URL inválido removido]
+
+Funcionalidades:
+
+Cadastro de Usuário:
+Nome
+E-mail
+Telefone
+Cadastro de Eventos:
+Nome
+Endereço
+Categoria (festa, evento esportivo, show, etc.)
+Horário e data
+Descrição
+Consulta de Eventos:
+Listagem de todos os eventos cadastrados
+Filtro por categoria
+Ordenação por data e hora
+Participação em Eventos:
+Confirmação de presença em eventos
+Visualização dos eventos confirmados
+Cancelamento de participação
+Notificações:
+Notificação de eventos próximos
+Notificação de eventos em andamento
+Tecnologias Utilizadas:
+
+Linguagem de programação: Java
+IDE: IntelliJ IDEA
+Controle de versão: Git
+Armazenamento de dados: Arquivo de texto "events.data"
+Biblioteca de datas: Joda-Time
+Diagrama de Classes:
+
+Diagrama de Classes: [URL inválido removido]
+
+Observações:
+
+O sistema foi implementado de forma modular, com classes separadas para cada funcionalidade.
+As informações dos eventos são salvas em um arquivo de texto "events.data" no formato JSON.
+O sistema utiliza a biblioteca Joda-Time para manipulação de datas e horas.
+O sistema não possui interface gráfica, sendo todo operado através do console.
+Melhorias:
+
+Implementar interface gráfica para facilitar a interação do usuário.
+Integrar com APIs externas para obter informações sobre eventos em tempo real.
+Implementar sistema de autenticação e segurança para o acesso ao sistema.
+Próximos Passos:
+
+Aprimorar o sistema com as funcionalidades mencionadas acima.
+Testar o sistema com diferentes cenários de uso.
+Publicar o sistema para que outras pessoas possam utilizá-lo.
+Recursos Adicionais:
+
+Documentação do Joda-Time: https://www.joda.org/joda-time/
+Tutoriais sobre Java: [URL inválido removido]
